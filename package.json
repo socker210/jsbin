@@ -9,17 +9,22 @@
     "test:unit": "jest --",
     "test:unit:watch": "jest --watch --",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint --edit"
   },
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.8",
     "@babel/preset-typescript": "^7.23.3",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.7",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
     "babel-plugin-module-resolver": "^5.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^27.6.1",
